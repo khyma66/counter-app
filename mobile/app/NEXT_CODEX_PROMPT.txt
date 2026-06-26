@@ -1,0 +1,1 @@
+Read README.md and docs. Continue Phase 2. Create pubspec.yaml, organize lib folders, keep current lib/main.dart working, add a counter engine contract, add a mock counter engine, add a session model, and add basic widget/unit tests. Do not add real microphone logic yet. Open a PR referencing issue #2.
