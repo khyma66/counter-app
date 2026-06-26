@@ -1,0 +1,1 @@
+Phase 2 started. Basic Flutter main screen added. Next: add pubspec, structured features, engine interface, local session model, and tests from a local IDE or Codex PR.
