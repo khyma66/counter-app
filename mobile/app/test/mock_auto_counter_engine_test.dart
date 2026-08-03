@@ -17,6 +17,6 @@ void main() {
     final engine = MockAutoCounterEngine();
     addTearDown(engine.dispose);
 
-    expect(() => engine.correctCount(-1), throwsArgumentError);
+    await expectLater(engine.correctCount(-1), throwsArgumentError);
   });
 }
