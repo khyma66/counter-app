@@ -39,7 +39,9 @@ final class MockAutoCounterEngine implements AutoCounterEngine {
 
   @override
   Future<void> correctCount(int value) async {
-    if (value < 0) throw ArgumentError.value(value, 'value', 'must be non-negative');
+    if (value < 0) {
+      throw ArgumentError.value(value, 'value', 'must be non-negative');
+    }
     _count = value;
     _controller.add(_count);
   }
